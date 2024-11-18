@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <nav class="logo">
+        <div class="navbar__container">
+          <a href="index.html" id="navbar__logo">LETS LEARN SOME CODE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="basic.html" class="navbar__links" id="about-page">Basics</a>
+            </li>
+            <li class="navbar__item">
+              <a href="tutorial.html" class="navbar__links" id="services-page">Video Tutorial</a>
+            </li>
+          </li> 
+    </nav>
+    <div class="tutsemmet">
+        <h1>Emmet Shortcuts for HTML</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Shortcut</th>
+                    <th>Description</th>
+                    <th>Expanded HTML</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>!</td>
+                    <td>Generate an HTML boilerplate</td>
+                    <td>
+    
+                      <pre>&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>div</td>
+                    <td>Create a &lt;div&gt; element</td>
+                   <td><pre>&lt;div&gt;&lt;/div&gt;</td>
+                </tr>
+                <tr>
+                    <td>div.container</td>
+                    <td>Create a &lt;div&gt; with a class "container"</td>
+                    <td><pre>&lt;div class="container"&gt;&lt;/div&gt;</td>
+                </tr>
+                <tr>
+                    <td>div#main</td>
+                    <td>Create a &lt;div&gt; with an ID "main"</td>
+                    <td><pre>&lt;div id="main"&gt;&lt;/div&gt;</td>
+                </tr>
+                <tr>
+                    <td>ul>li*3</td>
+                    <td>Create an unordered list with 3 list items</td>
+                    <td>
+    <pre>&lt;ul&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ol>li{Item $}*3</td>
+                    <td>Create an ordered list with numbered text</td>
+                    <td>
+    <pre>&lt;ol&gt;
+        &lt;li&gt;Item 1&lt;/li&gt;
+        &lt;li&gt;Item 2&lt;/li&gt;
+        &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;/ol&gt;
+    </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>table>tr>td*3</td>
+                    <td>Create a table with one row and three cells</td>
+                    <td>
+    <pre>&lt;table&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>form>label+input[type=text]+button</td>
+                    <td>Create a form with a label, text input, and button</td>
+                    <td>
+    <pre>&lt;form&gt;
+        &lt;label&gt;&lt;/label&gt;
+        &lt;input type="text"&gt;
+        &lt;button&gt;&lt;/button&gt;
+    &lt;/form&gt;
+    </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>header+main+footer</td>
+                    <td>Create a header, main, and footer structure</td>
+                    <td>
+    <pre>&lt;header&gt;&lt;/header&gt;
+    &lt;main&gt;&lt;/main&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+    </pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td>div.card>div.card-header{Header}+div.card-body{Body}+div.card-footer{Footer}</td>
+                    <td>Create a card layout</td>
+                    <td>
+    <pre>&lt;div class="card"&gt;
+        &lt;div class="card-header"&gt;Header&lt;/div&gt;
+        &lt;div class="card-body"&gt;Body&lt;/div&gt;
+        &lt;div class="card-footer"&gt;Footer&lt;/div&gt;
+    &lt;/div&gt;
+    </pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+      <footer> 
+        <pre>
+       <center> <a href="https://docs.emmet.io/cheat-sheet/" target="_blank">CLICK THIS FOR MORE EMMET SHORTCUT</a>
+      </footer>
+</head>
+</body>

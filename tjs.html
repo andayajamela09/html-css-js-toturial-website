@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <nav class="logo">
+        <div class="navbar__container">
+          <a href="index.html" id="navbar__logo">LETS LEARN SOME CODE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="basic.html" class="navbar__links" id="about-page">Basics</a>
+            </li>
+            <li class="navbar__item">
+              <a href="tutorial.html" class="navbar__links" id="services-page"> Video Tutorial</a>
+            </li>
+          </li> 
+    </nav>
+   <div class="jsdescript">
+    <h1>JavaScript Concepts</h1>
+
+    <h2>1. Basic Concepts</h2>
+    <ul><pre>
+        <li><code>var</code>, <code>let</code>, <code>const</code>: Keywords to declare variables.</li>
+        <li><code>console.log()</code>: Outputs messages to the browser console.</li>
+        <li><code>alert()</code>: Displays a browser alert dialog.</li>
+        <li><code>typeof</code>: Returns the data type of a variable or value.</li>
+        <li><code>if</code>, <code>else</code>, <code>else if</code>: Conditional statements to execute code based on conditions.</li>
+        <li><code>for</code>, <code>while</code>, <code>do...while</code>: Loops to iterate over blocks of code.</li>
+    </ul>
+
+    <h2>2. Functions</h2>
+    <ul><pre>
+        <li><code>function</code>: Declares a reusable block of code.</li>
+        <li><code>arrow functions</code>: A shorter syntax for writing functions (<code>() => {}</code>).</li>
+        <li><code>return</code>: Specifies the value a function will return.</li>
+        <li><code>parameters</code> and <code>arguments</code>: Input values passed to a function.</li>
+    </ul>
+
+    <h2>3. DOM Manipulation</h2>
+    <ul><pre>
+        <li><code>document.getElementById()</code>: Selects an element by its ID.</li>
+        <li><code>document.querySelector()</code>: Selects the first matching element using a CSS selector.</li>
+        <li><code>document.createElement()</code>: Creates a new HTML element.</li>
+        <li><code>element.innerHTML</code>: Sets or gets the HTML content of an element.</li>
+        <li><code>element.style</code>: Applies CSS styles to an element.</li>
+        <li><code>element.addEventListener()</code>: Attaches an event handler to an element.</li>
+    </ul>
+
+    <h2>4. Events</h2>
+    <ul><pre>
+        <li><code>click</code>: Triggered when an element is clicked.</li>
+        <li><code>keyup</code> and <code>keydown</code>: Triggered when a key is pressed or released.</li>
+        <li><code>mouseover</code>: Triggered when the mouse pointer enters an element.</li>
+        <li><code>submit</code>: Triggered when a form is submitted.</li>
+    </ul>
+
+    <h2>5. Objects</h2>
+    <ul><pre>
+        <li><code>Object</code>: A collection of key-value pairs.</li>
+        <li><code>this</code>: Refers to the current object context.</li>
+        <li><code>Object.keys()</code>: Returns an array of an object's property names.</li>
+        <li><code>Object.values()</code>: Returns an array of an object's values.</li>
+    </ul>
+
+    <h2>6. Arrays</h2>
+    <ul><pre>
+        <li><code>push()</code>: Adds an item to the end of an array.</li>
+        <li><code>pop()</code>: Removes the last item of an array.</li>
+        <li><code>shift()</code>: Removes the first item of an array.</li>
+        <li><code>unshift()</code>: Adds an item to the beginning of an array.</li>
+        <li><code>forEach()</code>: Calls a function for each array item.</li>
+        <li><code>map()</code>: Creates a new array by applying a function to each item.</li>
+        <li><code>filter()</code>: Creates a new array with items that pass a condition.</li>
+    </ul>
+
+    <h2>7. ES6 Features</h2>
+    <ul><pre>
+        <li><code>let</code> and <code>const</code>: Block-scoped variable declarations.</li>
+        <li><code>template literals</code>: String interpolation using backticks (<code>`Hello, ${name}`</code>).</li>
+        <li><code>spread operator</code>: Expands an array or object (<code>...</code>).</li>
+        <li><code>destructuring</code>: Extracts values from arrays or objects (<code>const {x, y} = obj;</code>).</li>
+        <li><code>modules</code>: Import and export functionality between files (<code>import/export</code>).</li>
+    </ul>
+
+    <h2>8. Promises and Asynchronous Programming</h2>
+    <ul><pre>
+        <li><code>Promise</code>: Represents a value that may be available now, later, or never.</li>
+        <li><code>async</code> and <code>await</code>: Simplify asynchronous code.</li>
+        <li><code>then()</code>: Handles a resolved promise.</li>
+        <li><code>catch()</code>: Handles errors in promises.</li>
+    </ul>
+
+    <h2>9. Errors and Debugging</h2>
+    <ul><pre>
+        <li><code>try...catch</code>: Handles errors in a block of code.</li>
+        <li><code>throw</code>: Throws a custom error.</li>
+        <li><code>console.error()</code>: Outputs error messages to the console.</li>
+    </ul>
+
+    <h2>10. Browser APIs</h2>
+    <ul><pre>
+        <li><code>fetch()</code>: Sends HTTP requests and handles responses.</li>
+        <li><code>localStorage</code> and <code>sessionStorage</code>: Store data in the browser.</li>
+        <li><code>setTimeout()</code>: Executes code after a delay.</li>
+        <li><code>setInterval()</code>: Executes code repeatedly at specified intervals.</li>
+        <li><code>navigator.geolocation</code>: Retrieves the user's location.</li>
+    </ul>
+
+    <h2>11. Classes</h2>
+    <ul><pre>
+        <li><code>class</code>: Defines a blueprint for creating objects.</li>
+        <li><code>constructor()</code>: Initializes class properties.</li>
+        <li><code>methods</code>: Functions inside a class.</li>
+        <li><code>extends</code>: Inherits properties and methods from another class.</li>
+        <li><code>super()</code>: Calls the constructor of the parent class.</li>
+    </ul>
+  </div>
+</body>
+</html>
+    

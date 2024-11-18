@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <nav class="logo">
+        <div class="navbar__container">
+          <a href="index.html" id="navbar__logo">LETS LEARN SOME CODE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="basic.html" class="navbar__links" id="about-page">Basics</a>
+            </li>
+            <li class="navbar__item">
+              <a href="tutorial.html" class="navbar__links" id="services-page">Video Tutorial</a>
+            </li>
+          </li> 
+    </nav>
+
+    <div class="ccsprop">
+    <h1>CSS Properties</h1>
+    <h2>1. Text and Fonts</h2>
+    <ul><pre>
+        <li><code>color</code>: Sets the text color.</li>
+        <li><code>font-family</code>: Specifies the font of the text.</li>
+        <li><code>font-size</code>: Sets the size of the font.</li>
+        <li><code>font-weight</code>: Controls the boldness of the font.</li>
+        <li><code>font-style</code>: Specifies whether the font is italic or normal.</li>
+        <li><code>text-align</code>: Aligns text (e.g., left, right, center).</li>
+        <li><code>text-decoration</code>: Adds decoration to text (e.g., underline, overline).</li>
+        <li><code>letter-spacing</code>: Adjusts the spacing between letters.</li>
+        <li><code>line-height</code>: Sets the spacing between lines of text.</li>
+        <li><code>word-spacing</code>: Adjusts the spacing between words.</li>
+    </ul></pre>
+
+    <h2>2. Background</h2>
+    <ul><pre>
+        <li><code>background-color</code>: Sets the background color of an element.</li>
+        <li><code>background-image</code>: Sets a background image.</li>
+        <li><code>background-size</code>: Specifies the size of the background image.</li>
+        <li><code>background-repeat</code>: Controls whether the background image repeats.</li>
+        <li><code>background-position</code>: Sets the starting position of a background image.</li>
+        <li><code>background-attachment</code>: Specifies whether the background scrolls with the page or is fixed.</li>
+    </ul></pre>
+
+    <h2>3. Box Model</h2>
+    <ul><pre>
+        <li><code>width</code>: Sets the width of an element.</li>
+        <li><code>height</code>: Sets the height of an element.</li>
+        <li><code>margin</code>: Sets the space outside an element.</li>
+        <li><code>padding</code>: Sets the space inside an element.</li>
+        <li><code>border</code>: Sets the border of an element (width, style, color).</li>
+        <li><code>box-shadow</code>: Adds a shadow around an element.</li>
+        <li><code>box-sizing</code>: Specifies how the width and height are calculated (content-box or border-box).</li>
+    </ul></pre>
+
+    <h2>4. Positioning</h2>
+    <ul><pre>
+        <li><code>position</code>: Specifies the positioning method (static, relative, absolute, fixed, sticky).</li>
+        <li><code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code>: Sets offsets for positioned elements.</li>
+        <li><code>z-index</code>: Specifies the stack order of elements.</li>
+        <li><code>float</code>: Positions an element to the left or right.</li>
+        <li><code>clear</code>: Specifies what elements should not float.</li>
+    </ul></pre>
+
+    <h2>5. Flexbox</h2>
+    <ul><pre>
+        <li><code>display</code>: Sets the layout mode (e.g., <code>flex</code> for flexbox).</li>
+        <li><code>flex-direction</code>: Defines the direction of the flex items (row, column).</li>
+        <li><code>justify-content</code>: Aligns items horizontally in a flex container.</li>
+        <li><code>align-items</code>: Aligns items vertically in a flex container.</li>
+        <li><code>align-content</code>: Aligns multiple rows of flex items.</li>
+        <li><code>flex-wrap</code>: Specifies whether items wrap to the next line.</li>
+        <li><code>flex</code>: Sets the size of a flex item.</li>
+    </ul></pre>
+
+    <h2>6. Grid</h2>
+    <ul><pre>
+        <li><code>display</code>: Sets the layout mode (e.g., <code>grid</code> for grid layout).</li>
+        <li><code>grid-template-columns</code>: Defines column sizes in a grid.</li>
+        <li><code>grid-template-rows</code>: Defines row sizes in a grid.</li>
+        <li><code>grid-gap</code>: Sets the gap between rows and columns.</li>
+        <li><code>align-items</code>: Aligns grid items vertically.</li>
+        <li><code>justify-items</code>: Aligns grid items horizontally.</li>
+        <li><code>grid-area</code>: Specifies a grid item's position.</li>
+    </ul></pre>
+
+    <h2>7. Animation</h2>
+    <ul><pre>
+        <li><code>animation-name</code>: Specifies the animation to apply.</li>
+        <li><code>animation-duration</code>: Sets how long the animation lasts.</li>
+        <li><code>animation-timing-function</code>: Defines the speed curve (e.g., ease, linear).</li>
+        <li><code>animation-delay</code>: Delays the start of the animation.</li>
+        <li><code>animation-iteration-count</code>: Specifies how many times the animation runs.</li>
+    </ul></pre>
+
+    <h2>8. Other</h2>
+    <ul><pre>
+        <li><code>overflow</code>: Controls what happens when content overflows its container (visible, hidden, scroll, auto).</li>
+        <li><code>cursor</code>: Specifies the type of cursor (e.g., pointer, default).</li>
+        <li><code>opacity</code>: Sets the transparency of an element.</li>
+        <li><code>visibility</code>: Controls whether an element is visible or hidden.</li>
+        <li><code>clip-path</code>: Clips an element to a specific shape.</li>
+    </ul></pre>
+  </div>
+</body>
+</html>
+    

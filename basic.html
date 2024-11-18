@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <nav class="logo">
+        <div class="navbar__container">
+          <a href="index.html" id="navbar__logo">LETS LEARN SOME CODE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="basic.html" class="navbar__links" id="about-page">Basics</a>
+            </li>
+            <li class="navbar__item">
+              <a href="tutorial.html" class="navbar__links" id="services-page">Video Tutorial</a>
+            </li>
+          </li> 
+    </nav>
+    
+   
+    <div class="introcontainer">
+      <h2>HTML Basic Examples</h2>
+      <br>
+
+      <p>In this chapter we will show some basic HTML examples.
+       Don't worry if we use tags you have not learned about yet..</p>
+       <br>
+       <br>
+      
+      <h2>How HTML Documents</h2>
+      <p>HTML consists of a series of elements (tags) that define different parts of a webpage. 
+        <br>
+        Tags are enclosed in angle brackets like <code>&lt;tag&gt;</code> and most HTML elements come in pairs: an opening tag and a closing tag. The closing tag has a slash before the tag name, such as <code>&lt;/tag&gt;</code>.</p>
+       <br>
+       <br>
+       
+      <h2>Basic HTML Structure</h2>
+      <br>
+      <p>All HTML documents must start with a document type declaration: <code>&lt; ! DOCTYPE html  &gt;</code>
+        <br>
+        <br>
+        <p> The HTML document itself begins with <code>&lt; html &gt; and ends with <code>&lt;/ html &gt;</code>. 
+          <br>
+         The <code>&lt;head&gt;</code> section for metadata, and the <code>&lt;body&gt;</code> section for content.</p>
+      <h3>Example:</h3>
+      <pre>
+       &lt;!DOCTYPE html&gt;
+       &lt;html lang="en"&gt;
+       &lt;head&gt;
+       &lt;title&gt;My First Web Page&lt;/title&gt;
+       &lt;/head&gt;
+       &lt;body&gt;
+      &lt;h1&gt;Hello, World!&lt;/h1&gt;
+      &lt;p&gt;This is my first HTML webpage.&lt;/p&gt;
+      &lt;/body&gt;
+      &lt;/html&gt;
+      </pre>
+    </div>
+
+
+        <hr>     
+
+        <h2>HTML Headings</h2>
+      <br>
+          
+      
+      <div class="htmlcontainer">
+      <p>HTML headings are defined with the &lt;h1> to &lt;h6> tags.</p>
+       <br>
+       <p>&lt;h1> defines the most important heading. &lt;h6> defines the least important heading: </p>
+      <br>
+      <h3>Example:</h3>
+      <pre>
+        <p><h1>&lt;h1>This is heading 1 &lt;/h1> </h1> </p>
+        <p><h2>&lt;h2 &gt;This is heading 2 &lth2 &gt;</h2></p>
+        <br>
+        <p><h3>&lt;h3&gt;This is heading 3 &lt;h3&gt;</h3></p>
+      </pre>
+       <br>
+       <br>
+      <h2>HTML Paragraphs</h2>
+      <br>
+       <p> HTML paragraphs are defined with the &ltp> tag</p>
+       <br>
+       <h3>Example:</h3>
+       <pre>
+        <p>&lt;p>This is a paragraph.&lt;/p></p>
+        <p>&lt;p>This is another paragraph.&lt;/p></p></pre>
+         <br>
+        <h2>HTML Links</h2>
+        <br>
+        <p>HTML links are defined with the &lt;a> tag:</p>
+         <br>
+         <h3>Example:</h3>
+         <br>
+         <pre> &lt; a href="https://www.youtube,com"> This is a link &lt;/a></pre>
+         <br>
+         <p>The link's destination is specified in the href attribute. 
+          Attributes are used to provide additional information about HTML elements.
+          You will learn more about attributes in a later chapter.</p>
+          <br>
+          <h2>HTML Images</h2>
+          <br>
+          <p>HTML images are defined with the &lt;img> tag.</p>
+          <p>The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+          <br>
+          <h3>Example:</h3>
+          <br>
+          <pre>&lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"></pre>
+</body>
+</html>
